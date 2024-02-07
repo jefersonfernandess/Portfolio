@@ -1,0 +1,82 @@
+/* FONTS */
+@font-face {
+    font-family: 'Karla-regular';
+    src: url(/assets/fonts/karla/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Karla-medium';
+    src: url(/assets/fonts/karla/Karla-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Karla-semiBold';
+    src: url(/assets/fonts/karla/Karla-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Karla-Bold';
+    src: url(/assets/fonts/karla/Karla-Bold.ttf);
+}
+
+
+/* ROOT CONFIG */
+:root {
+    --color-rich-black: #02111B;
+    --color-blue-crayola: #3772FF;
+    --color-white: #ffffff;
+    --color-black: #000000;
+}
+
+/* RESET CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ID'S AND CLASS'S FROM PRESETTING */
+.container {
+    max-width: 1250px;
+    margin: auto;
+}
+
+/* NAVBAR */
+
+.header {
+    background-color: var(--color-blue-crayola);
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navbar__icon {
+    height: 5rem;
+}
+
+.header__navbar__itens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    font-family: 'Karla-Bold', sans-serif;
+    font-size: 1.2rem;
+    color: var(--color-white);
+}
+
+.item__link:hover {
+    border-bottom: 2px solid var(--color-white);
+}
+
+.item__link:visited {
+    color: var(--color-white);
+}
