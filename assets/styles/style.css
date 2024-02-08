@@ -82,6 +82,7 @@ a {
 html {
     scroll-behavior: smooth;
     transition: 1000;
+    scrollbar-color: var(--color-rich-black) var(--color-blue-crayola);
 }
 
 /* ID'S AND CLASS'S FROM PRESETTING */
@@ -169,7 +170,7 @@ html {
     /* margin-top: 15rem; */
 }
 
-.apresentation__hiMessage{
+.apresentation__hiMessage {
     font-size: 2.5rem;
     font-family: 'Roboto-Light';
 }
@@ -210,9 +211,8 @@ html {
     align-items: center;
     flex-direction: column;
     overflow-y: scroll;
-    scrollbar-color: var(--color-blue-crayola);
-    /* margin-top: 10rem; */
-    
+    scrollbar-color: var(--color-blue-crayola) var(--color-rich-black);
+
 }
 
 .main__sectionTwo__projects__typeProjects {
@@ -220,6 +220,7 @@ html {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+
 }
 
 .selectTypeProject {
@@ -234,7 +235,9 @@ html {
     color: var(--color-white);
     font-family: 'LilitaOne';
     padding: 1rem;
+
 }
+
 
 .main__sectionTwo__projects__project {
     display: flex;
@@ -258,18 +261,22 @@ html {
 
 .project__top__title {
     font-size: 2rem;
+
 }
 
 .project__top__techs__icon {
     height: 2rem;
+
 }
 
 .project__bottom {
     font-family: 'Roboto-Light';
     color: var(--color-white);
+
 }
 
 /* ABOUT ME */
 .aboutMe {
     height: 100vh;
+
 }
