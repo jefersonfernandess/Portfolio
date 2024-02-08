@@ -79,10 +79,14 @@ a {
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+    transition: 1000;
+}
 
 /* ID'S AND CLASS'S FROM PRESETTING */
 .container {
-    max-width: 1250px;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -103,8 +107,8 @@ a {
     align-items: center;
 }
 
-.gap-3 {
-    gap: 3rem;
+.gap-5 {
+    gap: 5rem;
 }
 
 /* NAVBAR */
@@ -148,6 +152,9 @@ a {
 .main {
     background-color: var(--color-rich-black);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main__sectionOne {
@@ -159,7 +166,7 @@ a {
 
 .main__sectionOne__apresentation {
     color: var(--color-white);
-    margin-top: 15rem;
+    /* margin-top: 15rem; */
 }
 
 .apresentation__hiMessage{
@@ -196,16 +203,7 @@ a {
     height: 3rem;
 }
 
-.main__sectionOne__imgs {
-    margin-top: 10rem;
-}
-
-.main__sectionOne__img {
-    height: 20rem;
-}
-
 .main__sectionTwo {
-    /* background-color: var(--color-blue-crayola); */
     width: 30rem;
     height: 20rem;
     display: flex;
@@ -213,7 +211,7 @@ a {
     flex-direction: column;
     overflow-y: scroll;
     scrollbar-color: var(--color-blue-crayola);
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
     
 }
 
@@ -254,7 +252,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'LilitaOne';
+    font-family: 'Karla-regular';
     color: var(--color-white);
 }
 
