@@ -7,6 +7,8 @@
     <title>Olá, bem vindo(a) ao meu portfólio!</title>
     <!-- CSS  -->
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -25,16 +27,18 @@
     </header>
     <main class="main" id="home">
         <div class="container d-flex justify-content-between aling-center gap-5">
-            <section class="main__sectionOne">
+            <section class="main__sectionOne" data-aos="fade-right" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                 <div class="main__sectionOne__apresentation">
                     <h2 class="apresentation__hiMessage">Olá, eu me chamo</h2>
                     <h1 class="apresentation__firstName">Jeferson</h1>
                     <h2 class="apresentation__lastName">Fernandes</h2>
                     <p class="apresentation__text">e eu sou um Desenvolvedor Web</p>
                     <div class="apresentation__iconsLinks">
-                        <a href="https://github.com/jefersonfernandess"><img class="iconsLinks" src="assets/imgs/iconLinks/github.png" alt="Icon GitHub"></a>
-                        <a href="https://www.linkedin.com/in/jeferson-fernandess/"><img class="iconsLinks" src="assets/imgs/iconLinks/linkedin.png"
-                                alt="Icon LinkedIn"></a>
+                        <a href="https://github.com/jefersonfernandess"><img class="iconsLinks"
+                                src="assets/imgs/iconLinks/github.png" alt="Icon GitHub"></a>
+                        <a href="https://www.linkedin.com/in/jeferson-fernandess/"><img class="iconsLinks"
+                                src="assets/imgs/iconLinks/linkedin.png" alt="Icon LinkedIn"></a>
                         <a href=""><img class="iconsLinks" src="assets/imgs/iconLinks/email.png" alt="Icon Email"></a>
                     </div>
                 </div>
@@ -43,7 +47,8 @@
                         alt="Jeferson Fernandes photo">
                 </div>
             </section>
-            <section class="main__sectionTwo">
+            <section class="main__sectionTwo" data-aos="fade-left" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div class="main__sectionTwo__projects">
                     <div class="main__sectionTwo__projects__typeProjects">
                         <button class="selectTypeProject">Simples</button>
@@ -56,9 +61,12 @@
                         <div class="project__top">
                             <h2 class="project__top__title">Jogo da forca</h2>
                             <div class="project__top__techs">
-                                <img src="assets/imgs/iconTechs/javascrioticon.png" alt="Javascript Icon" class="project__top__techs__icon">
-                                <img src="assets/imgs/iconTechs/html5icon.png" alt="HTML Icon" class="project__top__techs__icon">
-                                <img src="assets/imgs/iconTechs/css3icon.png" alt="CSS Icon" class="project__top__techs__icon">
+                                <img src="assets/imgs/iconTechs/javascrioticon.png" alt="Javascript Icon"
+                                    class="project__top__techs__icon">
+                                <img src="assets/imgs/iconTechs/html5icon.png" alt="HTML Icon"
+                                    class="project__top__techs__icon">
+                                <img src="assets/imgs/iconTechs/css3icon.png" alt="CSS Icon"
+                                    class="project__top__techs__icon">
                             </div>
                         </div>
                         <div class="project__bottom">
@@ -70,8 +78,10 @@
                     <div class="project__top">
                         <h2 class="project__top__title">Projeto 2</h2>
                         <div class="project__top__techs">
-                            <img src="assets/imgs/iconTechs/phpIcon.png" alt="Laravel Icon" class="project__top__techs__icon">
-                            <img src="assets/imgs/iconTechs/laravelIcon.png" alt="Laravel Icon" class="project__top__techs__icon">
+                            <img src="assets/imgs/iconTechs/phpIcon.png" alt="Laravel Icon"
+                                class="project__top__techs__icon">
+                            <img src="assets/imgs/iconTechs/laravelIcon.png" alt="Laravel Icon"
+                                class="project__top__techs__icon">
                         </div>
                     </div>
                     <div class="project__bottom">
@@ -82,8 +92,10 @@
                     <div class="project__top">
                         <h2 class="project__top__title">Projeto 3</h2>
                         <div class="project__top__techs">
-                            <img src="assets/imgs/iconTechs/phpIcon.png" alt="Laravel Icon" class="project__top__techs__icon">
-                            <img src="assets/imgs/iconTechs/laravelIcon.png" alt="Laravel Icon" class="project__top__techs__icon">
+                            <img src="assets/imgs/iconTechs/phpIcon.png" alt="Laravel Icon"
+                                class="project__top__techs__icon">
+                            <img src="assets/imgs/iconTechs/laravelIcon.png" alt="Laravel Icon"
+                                class="project__top__techs__icon">
                         </div>
                     </div>
                     <div class="project__bottom">
@@ -94,8 +106,10 @@
                     <div class="project__top">
                         <h2 class="project__top__title">Projeto 4</h2>
                         <div class="project__top__techs">
-                            <img src="assets/imgs/iconTechs/phpIcon.png" alt="Laravel Icon" class="project__top__techs__icon">
-                            <img src="assets/imgs/iconTechs/laravelIcon.png" alt="Laravel Icon" class="project__top__techs__icon">
+                            <img src="assets/imgs/iconTechs/phpIcon.png" alt="Laravel Icon"
+                                class="project__top__techs__icon">
+                            <img src="assets/imgs/iconTechs/laravelIcon.png" alt="Laravel Icon"
+                                class="project__top__techs__icon">
                         </div>
                     </div>
                     <div class="project__bottom">
@@ -108,6 +122,10 @@
     <section class="aboutMe" id="aboutMe"></section>
 
     <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -152,6 +152,7 @@ html {
     /* background-color: var(--color-blue-crayola); */
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .header__navbar {
