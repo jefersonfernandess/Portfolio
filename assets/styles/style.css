@@ -267,13 +267,13 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 7rem;
+    width: 8rem;
     height: 2rem;
     border-radius: 1rem;
     border: none;
     background-color: var(--color-blue-crayola);
     color: var(--color-white);
-    font-family: 'LilitaOne';
+    font-family: 'Montserrat-Regular';
     padding: 1rem;
 
 }
@@ -286,7 +286,7 @@ html {
     gap: 2rem;
     background-color: var(--color-blue-crayola);
     margin-top: 1rem;
-    width: 26rem;
+    width: 28rem;
     height: 8rem;
     padding: 1rem;
 }
@@ -295,7 +295,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Karla-regular';
+    font-family: 'Roboto-Medium';
     color: var(--color-white);
 }
 
