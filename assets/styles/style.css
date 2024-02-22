@@ -87,9 +87,42 @@ html {
 }
 
 /* ID'S AND CLASS'S FROM PRESETTING */
+@keyframes navBarTransition {
+    from{
+        max-width: 1300px;
+        
+    } 
+    to {
+        max-width: 100%;
+    }
+}
+
+@keyframes navBarTransitionReverse {
+    from{
+        max-width: 100%;
+    } 
+    to {
+        max-width: 1300px;
+    }
+}
+.navBarContainer {
+    animation: 0.6s navBarTransition ease-in-out;
+    margin: auto;
+}
+
+.navBarContainerReverse {
+    animation: 0.6s navBarTransitionReverse ease-in-out;
+    animation-fill-mode: forwards;
+    margin: auto;
+}
+
 .container {
     max-width: 1300px;
     margin: auto;
+}
+
+.transicaoFoda {
+    transition: .50s all;
 }
 
 .d-flex {

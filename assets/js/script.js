@@ -1,17 +1,18 @@
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
+    const navBar = document.getElementById("navbarContainer");
     const scrollBarY = window.scrollY;
     if (scrollBarY > 4) {
-        const navBar = document.getElementById("navbarContainer");
-        navBar.classList.remove('container');
-        document.getElementById('navBar').style.marginTop = 2;
+        navBar.classList.remove('navBarContainerReverse');
+        navBar.classList.add('navBarContainer');
+        document.getElementById('navBar').style.marginTop = 0;
     }
     else {
-        const navBar = document.getElementById("navbarContainer");
-        navBar.classList.add('container');
-        navBar.style.transition = 5000;
+        navBar.classList.remove('navBarContainer');
+        navBar.classList.add('navBarContainerReverse');
+        document.getElementById('navBar').style = "margin-top: 1rem !important";
     }
 })
-
-function scrollBarTransition() {
-    
-}
+window.onload = function () {
+    const navBar = document.getElementById("navbarContainer");
+    navBar.classList.add('navBarContainerReverse');
+};
