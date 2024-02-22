@@ -297,15 +297,15 @@ html {
     align-items: center;
     font-family: 'Roboto-Medium';
     color: var(--color-white);
+    margin-bottom: 1.2rem;
 }
 
 .project__top__title {
-    font-size: 2rem;
-
+    font-size: 1.5rem;
 }
 
 .project__top__techs__icon {
-    height: 2rem;
+    height: 1.5rem;
 
 }
 
