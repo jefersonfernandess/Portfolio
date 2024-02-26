@@ -162,6 +162,7 @@ html {
     align-items: center;
     height: 3rem;
     margin-top: 1rem;
+    border-radius: 0.5rem;
 }
 
 .header__navbar__icon {
